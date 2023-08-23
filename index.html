@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Rate Calculator</title>
+     <link rel="stylesheet" type="text/css" href="styles.css">
+     <script src="myscript.js"></script>
+</head>
+<body>
+    <section id="page-container">
+      <section id="page-content">
+        <img src="dollar.png" alt="custom logo">
+        <header>Exchange Rate Calculator</header>
+        <span id="text">Choose the currency and the amounts to get the exchange rate</span>
+        <select id="source">
+           <option value='' checked> choose source</option>
+          <option value="CNY">CNY</option>
+          <option value="USD">USD</option>
+        </select>
+        <input type="number" id="source-amounts">
+        <button type="button">Swap</button>
+        <span id="result"> 1 CNY = 0.141511 USD </span>
+        <select id="target-currency">
+            <option value='' checked> choose target</option>
+            <option value="USD">USD</option>
+            <option value="CNY">CNY</option>
+        </select>
+        <input type="number" id="source-currency">
+      </section>
+    </section>
+
+</body>
+</html>
